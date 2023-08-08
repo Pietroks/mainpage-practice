@@ -1,0 +1,342 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    padding: 16px;
+    width: 70%;
+    float: left;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    float: left;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.redes-sociais li.twitter-logo {
+    padding-top: 3.5px;
+}
+
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 48px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+    margin-top: 6px;
+    height: 15px;
+    padding: 12px;
+    width: 180px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    left: 15%;
+    cursor: pointer;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url(../img/proximo.png);
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    right: 15%;
+    cursor: pointer;
+}
+
+.slider-principal {
+    width: 100%;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 42.7%;
+    top: 400px
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    border: 3px solid #ffffff;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: transparent;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    color: #818181;
+    font-size: 30px;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque p {
+    color: #9a9a9a;
+    font-size: 15px;
+}
+
+.col-3 {
+    width: 30%;
+    float: left;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.bloco-texto {
+    margin-top: 2em;
+}
+
+h3 {
+    font-weight: normal !important;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem {
+    height: 305px;
+    border: 1px solid #c5c5c5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 1px;
+}
+
+.bloco-imagem b,
+p {
+    text-align: left;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+
+.bloco-imagens-texto::before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background-image: url(../img/setinha.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.bloco-imagens-texto::after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 60px;
+    background: #eeeeee;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    margin: 0 auto;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-top: 1em;
+}
+
+.col-4 img:hover {
+    margin-top: 10px;
+    position: relative;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 40px;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url(../img/footer.png);
+    color: #ffffffff;
+}
+
+.footer-2 {
+    background-image: url(../img/footer2.png);
+    color: #c3c3c3;
+    height: 70px;
+}
+
+.footer-2 p {
+    padding: 15px;
+}
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.clock {
+    color: #898989;
+}
+
+.clock::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/clock.png);
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local::before,
+.emailico::before,
+.telefoneico::before {
+    content: '';
+    width: 17px;
+    height: 24px;
+    float: left;
+    padding-left: 5px;
+    background-repeat: no-repeat;
+}
+
+.local::before {
+    background-image: url(../img/local.png);
+}
+
+.emailico::before {
+    background-image: url(../img/email.png);
+}
+
+.telefoneico::before {
+    background-image: url(../img/telefoneico.png);
+}
+
+.redes-sociais-footer {
+    width: 25%;
+    float: right;
+}
+
+.redes-sociais-footer ul li {
+    margin-left: 25px;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais-footer li.twitter-logo {
+    padding-top: 3.5px;
+}
